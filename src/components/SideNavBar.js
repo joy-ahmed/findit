@@ -15,7 +15,7 @@ const SideNavBar = () => {
     },
   ];
   return (
-    <div>
+    <div className="w-[100px] flex flex-col items-center space-y-4 shadow-lg h-screen sticky top-0">
       <Image src="/img/logo.png" alt="logo" width={80} height={80} />
       {menu.map((item) => (
         <svg
